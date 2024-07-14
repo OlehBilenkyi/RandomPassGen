@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Светло-серый фон */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff; /* Белый фон контейнера */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  color: #4caf50; /* Ярко-зелёный заголовок */
+  margin-bottom: 30px;
+}
+
+.password-display {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f5f5f5; /* Светло-серый фон для отображения пароля */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  word-wrap: break-word;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50; /* Ярко-зелёная кнопка */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Тёмно-зелёный при наведении */
+}
+
+input[type="number"] {
+  padding: 10px;
+  width: 100px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+
+  input[type="number"] {
+    width: 80%;
+  }
+}
